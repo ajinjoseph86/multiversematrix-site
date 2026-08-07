@@ -63,9 +63,16 @@ body {
   letter-spacing: -0.5px;
 }
 
+.hero-byline {
+  color: var(--text);
+  font-size: 17px;
+  max-width: 560px;
+  margin: 0 auto 10px;
+}
+
 .hero-stat {
   color: var(--text-dim);
-  font-size: 16px;
+  font-size: 15px;
   max-width: 560px;
   margin: 0 auto;
 }
