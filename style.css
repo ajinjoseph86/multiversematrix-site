@@ -65,7 +65,7 @@ body {
 
 .hero-byline {
   color: var(--text);
-  font-size: 17px;
+  font-size: 14px;
   max-width: 560px;
   margin: 0 auto 10px;
 }
@@ -220,6 +220,27 @@ body {
   text-decoration: none;
   color: var(--text);
   transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.app-card--with-image {
+  padding: 0;
+  overflow: hidden;
+}
+
+.app-card-image {
+  display: block;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--border);
+}
+
+.app-card-body {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
 }
 
 .app-card:not(.app-card--soon):hover {
